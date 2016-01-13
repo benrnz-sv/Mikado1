@@ -3,6 +3,14 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
+      "JetBrains.Annotations/10.0.0": {
+        "compile": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -230,6 +238,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Portable.Xaml/0.7.0": {
+        "compile": {
+          "lib/dotnet/Portable.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Portable.Xaml.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -1569,6 +1585,14 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "JetBrains.Annotations/10.0.0": {
+        "compile": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -1839,6 +1863,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Portable.Xaml/0.7.0": {
+        "compile": {
+          "lib/dotnet/Portable.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Portable.Xaml.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3225,6 +3257,14 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "JetBrains.Annotations/10.0.0": {
+        "compile": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -3481,6 +3521,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Portable.Xaml/0.7.0": {
+        "compile": {
+          "lib/dotnet/Portable.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Portable.Xaml.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -4853,6 +4901,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "JetBrains.Annotations/10.0.0": {
+        "compile": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -5128,6 +5184,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Portable.Xaml/0.7.0": {
+        "compile": {
+          "lib/dotnet/Portable.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Portable.Xaml.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -6514,6 +6578,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "JetBrains.Annotations/10.0.0": {
+        "compile": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -6770,6 +6842,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Portable.Xaml/0.7.0": {
+        "compile": {
+          "lib/dotnet/Portable.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Portable.Xaml.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -8142,6 +8222,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "JetBrains.Annotations/10.0.0": {
+        "compile": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -8417,6 +8505,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Portable.Xaml/0.7.0": {
+        "compile": {
+          "lib/dotnet/Portable.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Portable.Xaml.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -9803,6 +9899,14 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "JetBrains.Annotations/10.0.0": {
+        "compile": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -10059,6 +10163,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Portable.Xaml/0.7.0": {
+        "compile": {
+          "lib/dotnet/Portable.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Portable.Xaml.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11432,6 +11544,22 @@
     }
   },
   "libraries": {
+    "JetBrains.Annotations/10.0.0": {
+      "sha512": "vyadsDFnDDbR2NK3P++l9AA5ogM+cWlj8kQl8NV9m+LZyEYxjQndZZL/noqb5g8pYpCNellecxtVFdUZ979UWg==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "JetBrains.Annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll",
+        "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.xml",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/JetBrains.Annotations.PCL328.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/JetBrains.Annotations.PCL328.xml",
+        "package/services/metadata/core-properties/c6cfc38082154b4cb0a67d2c21f2e054.psmdcp"
+      ]
+    },
     "Microsoft.ApplicationInsights/1.0.0": {
       "sha512": "HZ47/thX57SOuIivSvIbsR6L9CCb/Yt3IyB2i4KHmmNlf3DO+lqFwWIKDdbDNWKX+qh0Rg20/JSMPK0dwUsYYw==",
       "type": "Package",
@@ -12133,6 +12261,21 @@
         "ref/net46/Microsoft.Win32.Primitives.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._"
+      ]
+    },
+    "Portable.Xaml/0.7.0": {
+      "sha512": "77TeMdtRozP0jVsfu7Bk0UbMbkQx7+yCDcJUm6nz5LRA9CDro6m7JP+E0NlNlPuouEafPc08u33ZMShxdjCoqA==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/dotnet/Portable.Xaml.dll",
+        "lib/portable-net40+sl50+win+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Portable.Xaml.dll",
+        "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Portable.Xaml.dll",
+        "lib/Xamarin.Mac/Portable.Xaml.dll",
+        "LICENSE.txt",
+        "package/services/metadata/core-properties/1f4f464baa344d8aa3a5b88ca4b966c8.psmdcp",
+        "Portable.Xaml.nuspec"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -14833,10 +14976,12 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "JetBrains.Annotations >= 10.0.0",
       "Microsoft.ApplicationInsights >= 1.0.0",
       "Microsoft.ApplicationInsights.PersistenceChannel >= 1.0.0",
       "Microsoft.ApplicationInsights.WindowsApps >= 1.0.0",
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
+      "Portable.Xaml >= 0.7.0"
     ],
     "UAP,Version=v10.0": []
   }

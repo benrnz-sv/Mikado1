@@ -22,5 +22,17 @@
                    Grid.Row="1"
                    FontSize="24"
                    Text="Hello World !"/>
+        <TextBlock Grid.Row="2"
+                   Grid.Column="0"
+                   VerticalAlignment="Bottom"
+                   Text="{Binding TextProperty}"/>
+        <TextBlock Grid.Row="2"
+                   Grid.Column="1"
+                   VerticalAlignment="Bottom"
+                   Text="{Binding MyInt}"/>
+        <TextBlock Grid.Row="2"
+                   Grid.Column="2"
+                   VerticalAlignment="Bottom"
+                   Text="{Binding NetWorth}"/>
     </Grid>
 </Page>
