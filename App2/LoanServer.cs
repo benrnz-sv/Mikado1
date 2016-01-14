@@ -12,7 +12,7 @@ namespace App2
         public static void Main(string[] args)
         {
             HttpServer httpServer = new HttpServer(8080);
-            httpServer.SetHandler(new LoanHandler());
+            httpServer.SetHandler(new LoanHandler(new FileBasedLoanRepository()));
             httpServer.Start();
             httpServer.Join();
         }

@@ -8,12 +8,17 @@ namespace App2
 {
     public class LoanHandler : IHandler
     {
-        private readonly FileBasedLoanRepository _loanRepository = new FileBasedLoanRepository();
+        private readonly ILoanRepository _loanRepository;
         private const string APPLICATION = "Apply";
         private const string FETCH = "Fetch";
         private const string TICKET_ID = "Ticket";
         private const string APPLICATION_ID = "ApplicationId";
         private const string APPROVE = "Approve";
+
+        public LoanHandler(ILoanRepository loanRepository)
+        {
+            _loanRepository = loanRepository;
+        }
 
         public void Handle(string target, HttpRequest baseRequest, HttpResponse response)
         {
