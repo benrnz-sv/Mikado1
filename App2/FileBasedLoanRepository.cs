@@ -1,6 +1,6 @@
 ﻿namespace App2
 {
-    public class FileBasedLoanRepository
+    public class FileBasedLoanRepository : ILoanRepository
     {
         public const string FILE_EXTENSION = ".foo";
         public const string REPOSITORY_ROOT = @"X:\";

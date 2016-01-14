@@ -49,6 +49,7 @@
     <Compile Include="Fakes\HttpServer.cs" />
     <Compile Include="Fakes\IHandler.cs" />
     <Compile Include="Fakes\JsonSerialiser.cs" />
+    <Compile Include="ILoanRepository.cs" />
     <Compile Include="LoanApplication.cs" />
     <Compile Include="LoanHandler.cs" />
     <Compile Include="FileBasedLoanRepository.cs" />
