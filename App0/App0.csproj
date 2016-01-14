@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationDatabase.cs" />
+    <Compile Include="IDatabaseRepository.cs" />
     <Compile Include="MyApp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
