@@ -6,7 +6,13 @@ namespace App0
 {
     public class MyApp
     {
+        private readonly IDatabaseRepository _dbRepo;
         private static ApplicationDatabase MyData;
+
+        public MyApp(IDatabaseRepository dbRepo)
+        {
+            _dbRepo = dbRepo;
+        }
 
         public static void SetStorageFile(string fileName)
         {

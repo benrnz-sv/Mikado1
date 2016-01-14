@@ -9,7 +9,7 @@ namespace App0
             try
             {
                 MyApp.SetStorageFile(args[0]);
-                MyApp app = new MyApp();
+                MyApp app = new MyApp(new XamlDatabaseRepository());
                 app.Launch();
                 Console.ReadLine();
             }
