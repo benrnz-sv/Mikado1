@@ -7,6 +7,11 @@ namespace App0
     {
         private string _fileName;
 
+        public XamlDatabaseRepository(string fileName)
+        {
+            _fileName = fileName;
+        }
+
         public ApplicationDatabase MyData { get; private set; }
 
         public void Load()

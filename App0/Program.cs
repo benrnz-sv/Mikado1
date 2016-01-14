@@ -8,8 +8,7 @@ namespace App0
         {
             try
             {
-                MyApp.SetStorageFile(args[0]);
-                MyApp app = new MyApp(new XamlDatabaseRepository());
+                MyApp app = new MyApp(new XamlDatabaseRepository(args[0]));
                 app.Launch();
                 Console.ReadLine();
             }
