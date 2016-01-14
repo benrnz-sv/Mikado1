@@ -8,7 +8,7 @@ namespace App2
 {
     public class LoanHandler : IHandler
     {
-        private readonly LoanRepository _loanRepository = new LoanRepository();
+        private readonly FileBasedLoanRepository _loanRepository = new FileBasedLoanRepository();
         private const string APPLICATION = "Apply";
         private const string FETCH = "Fetch";
         private const string TICKET_ID = "Ticket";
@@ -106,8 +106,8 @@ namespace App2
 
         public long GetNextId()
         {
-            File file = new File(LoanRepository.REPOSITORY_ROOT);
-            var files = file.ListFiles(f => f.EndsWith(LoanRepository.FILE_EXTENSION));
+            File file = new File(FileBasedLoanRepository.REPOSITORY_ROOT);
+            var files = file.ListFiles(f => f.EndsWith(FileBasedLoanRepository.FILE_EXTENSION));
             return files?.Count() + 1 ?? 0;
         }
     }
