@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="App2.LoanServer">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>LoanServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App2.LoanHandler">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="_loanRepository" Type="App2.LoanRepository" ManuallyRouted="true">
+      <Path>
+        <Point X="4.75" Y="3.335" />
+        <Point X="5.725" Y="3.335" />
+        <Point X="5.725" Y="5.335" />
+        <Point X="7.25" Y="5.335" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.993" Y="0.927" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAgAAAIAAgAABAAAAAAAAASABAAACJBBAAAAgQAQAA=</HashCode>
+      <FileName>LoanHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_loanRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="App2.LoanRepository">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAEAAAAAAAAAAEAAAAAAAAAAACAAAAAAQAAAAA=</HashCode>
+      <FileName>LoanRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App2.LoanApplication">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAICAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoanApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App2.Ticket" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ticket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
