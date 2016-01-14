@@ -8,7 +8,7 @@ namespace App0
         {
             try
             {
-                MyApp.SetStorageFile(@"D:\GitRepos2\Mikado\App0\bin\Debug\AppDb.xaml");
+                MyApp.SetStorageFile(args[0]);
                 MyApp app = new MyApp();
                 app.Launch();
                 Console.ReadLine();
