@@ -2,23 +2,24 @@
 {
     public class LoanRepository
     {
-        public const string FILE_EXTENSION = ".foo";
-        public const string REPOSITORY_ROOT = @"X:\";
+        public const string FILE_EXTENSION = ".loan";
+        public const string REPOSITORY_ROOT = @"X:\LoanData\";
 
         public Ticket Store(LoanApplication application)
         {
-            // TODO
+            // Hard coded to store to a file via IO... code omitted
             return new Ticket();
         }
 
         public Ticket Approve(string ticketId)
         {
+            // Code omitted
             return new Ticket();
         }
 
         public LoanApplication Fetch(string ticketId)
         {
-            // TODO
+            // Hard coded to fetch from a file.
             return new LoanApplication();
         }
     }
